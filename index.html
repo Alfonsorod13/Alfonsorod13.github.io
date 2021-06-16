@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Mi página personal</title>
+        <link rel="stylesheet" href="estilos.css"/>
+    </head>
+    <body>
+            
+        <div class="conteiner">
+                <h1>Alfonso Rodríguez</h1>
+            
+
+            <br>
+
+            
+                <img src="img/Alfonso Rodriguez.jpg" width="300" alt="Alfonso Rodriguez"  align = “center”> 
+            
+            <br>
+            <h2><span>Biografía</span></h2>
+            <br>
+                <p>
+                    Nací el 13 de mayo del 2003 y me gusta tocar la guitarra a la vez que cantar, escuchar música, jugar, me considero un poco introvertido, penoso y dormilón.
+                </p>
+            <hr>
+                <h2>Favoritos</h2>
+            <br>
+                <h3>Platos</h3>
+                    <br>
+                <ul>
+                    <li>Arroz con pollo</li>
+                    <li>Pizza</li>
+                    <li>Coditos</li>
+                </ul>
+
+                <h3>Pasatiempos</h3>
+            <br>
+                <ol>
+                    <li>Cantar</li>
+                    <li>Tocar Guitarra</li>
+                    <li>Jugar</li>
+                </ol>
+
+                 <h3>Canciones</h3>
+            <center>
+                    <table  border="1">
+                        <tr>
+                            <th>Genero</th>
+                            <th>Nombre</th>
+                            <th>Autor</th>
+                            <th>Audio</th>
+                        </tr>
+
+                        <tr>
+                            <td>Bossanova</td>
+                            <td>Fly love</td>
+                            <td>Jamie Foxx</td>
+                            <td><audio controls>
+                            <source src="audio/fly-love.mp3" type="audio/mp3">
+                            </audio>
+                        </td>
+
+                        </tr>
+                            <tr>
+                            <td>Punk</td>
+                            <td>Lucky</td>
+                            <td>Daft Punk ft. Pharell Williams</td>
+                            <td><audio controls>
+                            <source src="audio/daft-punk-get-lucky-official-audio-ft-pharrell-williams-nile-rodgers.mp3" type="audio/mp3">
+                            </audio>
+                        </td> 
+
+                        </tr>
+                            <tr>
+                            <td>Baladas</td>
+                            <td>El triste</td>
+                            <td>Cristian Castro</td>
+                            <td><audio controls>
+                            <source src="audio/cristian-castro-el-triste-hit-factory-criteria.mp3" type="audio/mp3">
+                            </audio></td>
+                        </tr>
+                    </table>
+            </center>
+
+                <h3>Libro</h3>
+
+            <center>
+                    <img src="img/9788483659052.jpg" width="150" alt="Alfonso Rodriguez"  align = “center”> 
+                <br>
+                <a href="https://www.casadellibro.com/libro-el-dia-que-se-perdio-la-cordura/9788483659052/4793744">El día que se perdió la cordura</a> 
+            </center>
+
+                <h3>Película</h3>
+
+            <br>
+            <center> 
+                <video width="320" height="240" controls>
+            <source src="video/yt1s.com - TRON LEGACY Official Trailer.mp4" type="video/mp4"> 
+            </center>
+
+            </video>
+        </div>
+            <p> <center> Para mayor información: </center></p>
+        <form action="#" target="" method="get" name="formDatosPersonales">
+        
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre"/>
+        
+            <label for="email" />Email</label>
+            <input type="email" name="email" id="email" placeholder="email" required />
+        
+            <label for="asunto">Asunto</label>
+            <input type ="text" name="asunto" id="asunto" placeholder="titular de la consulta"/>
+        
+            <label for="mensaje">Mensaje</label>
+            <textarea name="mensaje" for="mensaje" placeholder="" maxlength="300"></textarea>
+            
+            <input type="submit" name="enviar" value="Enviar"/>
+        </form>
+    </body>
+</html>
